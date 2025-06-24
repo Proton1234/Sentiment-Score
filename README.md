@@ -36,12 +36,3 @@ This is a Chrome extension that analyzes the sentiment of selected text using Op
 3. Enable Developer Mode.
 4. Click "Load unpacked" and select the folder containing the extension files.
 5. Insert your OpenAI API key into `popup.js` if testing locally.
-
-## Repository Structure
-Extensions/
-├── background.js
-├── contentScript.js
-├── manifest.json
-├── popup.html
-├── popup.js
-└── README.md
