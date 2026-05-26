@@ -1029,7 +1029,7 @@ function getColorFromScore(score) {
 }
 
 const analyzeSentimentWithGPT = async (text) => {
-  const apiKey = ""; // your real API key here
+  const apiKey = "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"; // your real API key here
   const endpoint = "https://api.openai.com/v1/chat/completions";
 
   const response = await fetch(endpoint, {
