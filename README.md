@@ -130,3 +130,18 @@ Stores cached sentiment results and analysis history.
 5. Select the project folder.
 6. Configure an OpenAI API key.
 7. Open any webpage and launch the extension.
+
+---
+
+## Development
+
+This project uses GitHub Actions for Continuous Integration (CI).
+
+On every push to the `main` branch, the CI workflow automatically:
+
+- Checks out the repository
+- Sets up Node.js
+- Installs project dependencies
+- Runs ESLint to validate JavaScript code quality
+
+This helps catch syntax and linting issues before future changes are merged.
